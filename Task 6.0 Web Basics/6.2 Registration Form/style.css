@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: sans-serif;
+}
+
+form {
+    width: 398px;
+    height: 274px;
+    display: flex;
+    flex-flow: column;
+    background: rgb(6, 144, 207);
+    border: 3px solid rgb(0, 117, 178);
+}
+
+input {
+    height: 20px;
+}
+
+.wrap {
+    margin: 15px;
+    margin-left: 0;
+    color: white;
+    font-size: 19px;
+}
+
+.form-head {
+    height: 58px;
+    padding-left: 20px;
+    border-bottom: 1px solid, white;
+}
+
+.registration {
+    font-size: 24px;
+    margin-top: 18px;
+}
+
+.email {
+    height: 73px;
+    padding-left: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+
+#email {
+    width: 318px;
+    margin-top: 3px;
+}
+
+.pass-box {
+    margin-left: 20px;
+    height: 64px;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+}
+
+#pass {
+    width: 148px;
+    margin-top: 3px;
+}
+
+#pass-again {
+    width: 148px;
+    margin-top: 3px;
+}
+
+.button {
+    height: 58px;
+    padding-left: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.button input {
+    width: 82px;
+    height: 26px;
+    border: none;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.button input:hover {
+    background: rgb(240, 205, 113);
+}

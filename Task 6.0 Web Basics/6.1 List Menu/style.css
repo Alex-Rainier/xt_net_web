@@ -1,0 +1,13 @@
+ul {
+    display: inline-block;
+    width: 200;
+    margin-left: 0;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(249, 228, 151);
+}
+
+li {
+    list-style-type: none;
+}

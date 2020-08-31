@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(71, 90, 110);
+    box-sizing: border-box;
+}
+
+img {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+}
+
+button {
+    color: white;
+    background-color: rgb(245, 99, 50);
+    border: none;
+    padding: 4px 10px 4px 10px;
+}
+
+.wrap {
+    height: 190px;
+    width: 900px;
+    margin-bottom: 0 auto;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.hosting {
+    width: 174px;
+}
+
+.cloud {
+    width: 174px;
+}
+
+.server {
+    width: 174px;
+}
+
+.title {
+    font-size: 13px;
+    color: rgb(245, 117, 96);
+}
+
+.price {
+    font-size: 11px;
+}
+
+.line {
+    width: 2px;
+    height: 160px;
+    margin-top: 15px;
+    background: rgb(231, 231, 231);
+}
